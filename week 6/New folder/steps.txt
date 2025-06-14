@@ -1,0 +1,81 @@
+// Document//
+1- createElement            1
+2- createTextNode           1
+3- createAttribute          1
+// element //
+4- appendChild              1
+5- className                1
+6- setAttributeNodex        1
+7- setAttribute             1
+--------------------------
+8- children
+9- childrenNodes
+1- firstChild
+2- lastChild
+3- firstElementChild
+4- lastElementChild
+---------------------------
+// Form action /////////////
+1- onfocus
+2- onblur
+3- onsubmit
+// btn action //////////////
+4- oncontextmenu "rigth click"
+5- onmouseleave
+6- onmouseenter
+7- onclick
+// window event ////////////
+8- onscroll
+9- onresize
+10- onload
+-------------------------------
+Dom [event simulation]
+1- click() -> link click example
+2- focus()
+3- blur()
+-------------------------------
+DOM {claseList}
+1- claseList
+     -length
+     -contains
+     -item("index")
+     -add
+     -remove
+     -toggle
+2- befor
+3- after
+4- append
+5- prepend
+6- remove
+-------------------------------
+1- nextSibling
+2- previousSibling
+3- nextElementSibiling
+4- previouseElementSibling
+5- parentElement
+--------------------------------
+cloneNoe(Deep)
+--------------------------------
+addEventListener
+================================
+BOM 
+1- alert
+2- confirm
+3- prompt
+4- location
+    -href // save in history
+    -host
+    -hash
+    -protocole
+    -reload()
+    -replace() // remove from histroy
+    -assign()
+------------------------------------
+1- open("website" , "_blank , _self" , "features")
+================================
+localStorage->setItem , . , ["]
+-> clear -> removeItem(")
+------------------------
+sessionStorage
+------------------------
+json -> JavaScript object notation
