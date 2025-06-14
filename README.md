@@ -1,5 +1,6 @@
 # Digital Egypt Pioneers Initiative – Projects Archive 🇪🇬💻
 
+📅 **Class Duration:** July 2024 – October 2024  
 This repository contains all the web development projects I worked on during the **Digital Egypt Pioneers Initiative**, spanning **13 weeks** of intensive, hands-on training through both:
 
 - 🏫 Offline sessions (on-campus)
