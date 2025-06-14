@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.gridBG{
+    background-image: linear-gradient(to bottom, rgb(45, 45, 101), rgb(9, 9, 22));
+}
+.bannar{
+    background-image: url(../image/banner.jpg);
+}
+.bannar2{
+    background-image: url(../image/banner2.jpg);
+}
+footer li{
+    list-style-type: none;
+}

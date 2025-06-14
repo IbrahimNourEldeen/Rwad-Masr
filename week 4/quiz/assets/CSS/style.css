@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.home{
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, 
+    rgba(0,0,0,0.5) 100%), url(../images/background\ img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home .container .bookBtn:hover{
+    transition: 0.2s;
+    color: white !important;
+    background-color: #ffc107 !important;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+.sheet3 .cardo:hover{
+    transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    -webkit-transition: 1s;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.serviceSheet .card i{
+    font-size: 4rem;
+    margin: 10px 0;
+}
+
+
+.dynamic{
+    animation: dyn 2s linear 0 infinite forwards;
+    -webkit-animation: dyn 2s linear 0 infinite forwards;
+}
