@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        form{
+            background-color: #fffaf0;
+            border: 1px solid;
+            width: 80%;
+            margin: auto;
+            padding: 10px;
+        }
+        h3{
+            text-align: center;
+            color: red;
+    
+        }
+        div{
+            padding-top: 20px;
+        }
+        .btns{
+            text-align: center;
+        }
+        fieldset{
+            width: 70%;
+            margin-top: 20px;
+        }
+        #el{
+            padding-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" name="rForm">
+        <h3>Register</h3>
+        <div>
+            <label for="n1">First Name</label>
+            <input id="n1" type="text" placeholder="Enter your first name" required>
+        </div>
+        <div>
+            <label for="n2">Last Name</label>
+            <input id="n2" type="text" placeholder="Enter your last name" required>
+        </div>
+        <div>
+            <label for="e" id="el">Email</label>
+            <input id="e" type="email" placeholder="Type your email" required>
+        </div>
+        <div>
+            <label for="p">Password</label>
+            <input id="p" type="password" placeholder="Enter your password">
+        </div>
+        <div>
+            <label for="p1">Password</label>
+            <input id="p1" type="password" placeholder="Confirm your password">
+        </div>
+        <div>
+            <label for="b">Birth date</label>
+            <input id="b" type="date">
+        </div>
+        <div>
+            <label for="c">Country</label>
+            <select name="Country" id="c">
+                <option value="Egypt" selected>Egypt</option>
+                <option value="USA">USA</option>
+                <option value="USA">SA</option>
+            </select>            
+        </div>
+        <fieldset>
+            <legend>Gender</legend>
+            <div>
+                <input type="radio" id="radio" name="Gender">
+                <label for="radio">Male</label>
+                <input type="radio" id="radio1" name="Gender">
+                <label for="radio1">Female</label>
+            </div>
+        </fieldset>
+        <div>
+            <label for="pr">Profile Picture</label>
+            <input id="pr" type="file" value="Choose File" >
+        </div>
+        <fieldset>
+            <legend>Interests</legend>
+            <div>
+                <input type="checkbox" id="check1" name="Interests">
+                <label for="chek1">Programming</label>
+                <input type="checkbox" id="chick2" name="Interests">
+                <label for="chick2">Reading</label>
+                <input type="checkbox" id="check3" name="Interests">
+                <label for="chek3">Swimming</label>
+                <input type="checkbox" id="chick4" name="Interests">
+                <label for="chick4">Travel</label>
+            </div>
+        </fieldset>
+        <div>
+            <label for="ta">Write About Yourself:<br> </label>
+            <textarea name="" id="ta" rows="5" cols="50" placeholder="Write a summary about yourself"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" id="ch1" name="agrement">
+            <label for="ch1">I agreed to terms and conditions</label>
+        </div>    
+        <div class="btns">
+            <input onclick="fun()" type="submit">
+            
+            <input type="reset">
+        </div>
+    </form>
+    <script>
+        function fun(){
+            var form=document.forms["rForm"]
+            var required=["n1","n2","e","p","p1"]
+            for(var x of required){
+                if(form[x].value===""){
+                    alert("please fill out the required field. ")
+                    return;
+                }
+                if(form['p'].value!==form['p1'].value){
+                    alert('passwords do not match')
+                    return;
+                }
+                else{
+                    open('thankpage.html')
+                }
+            }
+        }
+    </script>
+</body>
+</html>
