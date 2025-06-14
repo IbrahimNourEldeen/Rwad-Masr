@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook | Home</title>
+    <link rel="icon" href="./2023_Facebook_icon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Facebook Profile Page</h1>
+    <p>To log in click on <a href="https://www.facebook.com/" target="_blank">Facebook Header</a></p>
+    <a href="./home.html">Back Home</a>
+
+    <!-- Button elements (bonus) -->
+    <div>
+        <button id="like">Like</button>
+        <button style="background-color: lightgray; color: rgba(0, 0, 0, 0.71);">Comment</button>
+    </div>
+    <script>
+        var x=document.getElementById('like')
+        x.addEventListener('click',function(){
+            if(x.textContent=='Like'){
+                x.textContent='Liked'
+            }
+            else{
+                x.textContent='Like'
+            }
+        })
+    </script>
+</body>
+</html>

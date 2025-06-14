@@ -1,0 +1,93 @@
+.main{
+    height: 100vh;
+    background-color: lightgray;
+    overflow: hidden;
+}
+nav{
+    padding-top: 20px;
+    padding-left: 100px;
+}
+nav .logo{
+    width: 10%;
+}
+.main nav div{
+    float: left;
+}
+.clr{
+    clear: both;
+}
+.navList{
+    width: 70%;
+    
+}
+.contact{
+    width: 20%;margin-top: 20px;
+    a{
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+        background-color: rgb(66, 66, 226);
+        padding: 10px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
+}
+.main nav .navList ul{
+    width: 100%;
+    margin-left: 400px;
+}
+.main nav .navList ul li{
+    padding-left: 30px;
+    float: left;
+    list-style-type: none;
+    a{
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+    }
+}
+
+
+.mainContent{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    h1{
+        font-size: 50px;
+        margin-top: 100px;
+    }
+
+    .buttons {
+
+        button{
+            font-size: 15px;
+            border: none;
+            
+            padding: 10px;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+
+        }
+
+        .btn1{
+            background-color: lightsalmon;
+            color: lightcoral;
+        }
+        .btn2{
+            background-color: rgb(146, 205, 146);
+            color: rgb(103, 178, 80);
+        }
+    }
+
+
+    .mainImg{
+        width: 74%;
+        margin: auto;
+    }
+}

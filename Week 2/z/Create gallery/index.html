@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="nav"></div>
+        </nav>
+        <div class="main_content">
+            <button onclick="lol()">PHOTOS GALLERY</button>
+            <div class="btn" id="btn">
+                <div class="loading"></div>
+            </div>
+            <div class="links">
+                <a href="#">Home</a>/
+                <a href="#">May Photos</a>/
+                <a href="#">Folder1</a>
+            </div>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search">
+            </div>
+            <div class="central">
+            <div class="parentBox">
+                <div class="imgBox">
+                    <img src="./images/photo1.webp" alt="">
+                    <div class="img-content">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, reiciendis!</p>
+                    </div>
+                </div>
+                <div class="imgBox">
+                    <img src="./images/img2.jpg" alt="">
+                    <div class="img-content">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, reiciendis!</p>
+                    </div>
+                </div>
+                <div class="imgBox">
+                    <img src="./images/img3.jpg" alt="">
+                    <div class="img-content">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, reiciendis!</p>
+                    </div>
+                </div>
+                <div class="imgBox">
+                    <img src="./images/img4.jpg" alt="">
+                    <div class="img-content">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, reiciendis!</p>
+                    </div>
+                </div>
+                <div class="imgBox">
+                    <img src="./images/img5.jpg" alt="">
+                    <div class="img-content">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, reiciendis!</p>
+                    </div>
+                </div>
+                <div class="imgBox">
+                    <img src="./images/img6.jpg" alt="">
+                    <div class="img-content">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, reiciendis!</p>
+                    </div>
+                </div>
+                <div class="imgBox">
+                    <img src="./images/img7.jpg" alt="">
+                    <div class="img-content">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, reiciendis!</p>
+                    </div>
+                </div>
+                <div class="imgBox">
+                    <img src="./images/img8.jpg" alt="">
+                    <div class="img-content">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, reiciendis!</p>
+                    </div>
+                </div>
+                <div class="imgBox">
+                    <img src="./images/img8.jpg" alt="">
+                    <div class="img-content">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, reiciendis!</p>
+                    </div>
+                </div>
+                <div class="imgBox">
+                    <img src="./images/img9.jpg" alt="">
+                    <div class="img-content">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, reiciendis!</p>
+                    </div>
+                </div>
+                <div class="imgBox">
+                    <img src="./images/img10.jpg" alt="">
+                    <div class="img-content">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, reiciendis!</p>
+                    </div>
+                </div>
+                <div class="imgBox">
+                    <img src="./images/img3.jpg" alt="">
+                    <div class="img-content">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, reiciendis!</p>
+                    </div>
+                </div>
+                <div class="imgBox">
+                    <img src="./images/img5.jpg" alt="">
+                    <div class="img-content">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, reiciendis!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script>
+        var timer;
+        var loading=document.getElementById('btn')
+        function lol(){
+            var sec=0;
+            timer=setInterval(()=>{
+                if(sec==0){
+                    loading.style.visibility='visible'
+                }
+                else if(sec==5){
+                    loading.style.visibility='hidden'
+                    return;
+                }
+                sec++;
+            },1000)
+        }
+    </script>
+</body>
+</html>

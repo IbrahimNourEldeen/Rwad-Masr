@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <ul>
+                <li><a href="#">Electronics</a></li>
+                <li><a href="#">Fashion</a></li>
+                <li><a href="#">Back to school</a></li>
+                <li><a href="#">Log in</a></li>
+                <div class="clr"></div>
+            </ul>
+        </nav>
+        <div class="main-img">
+            <img width="100%" src="./imgs/1_qDjqw3uFKlzYeI1a4kno-w.webp" alt="">
+        </div>
+        <section>
+            <div class="products">
+                <div class="product1">
+                    <img src="./imgs/men-t-shirts-250x250.webp"  alt="">
+                    <hr>
+                    <h5>T-shert</h5>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <span>$20</span>
+                    <button>Add to chart</button>
+                </div>
+                <div class="product2">
+                    <img src="./imgs/p2393996.avif"  alt="">
+                    <hr>
+                    <h5>shoes</h5>
+                    <p>Lorem ipsum</p>
+                    <span>$30</span>
+                    <button>Add to chart</button>
+                </div>
+                <div class="product3">
+                    <img src="./imgs/001MBL-8oz-Cup-Med-Blue-scaled_600x.webp"  alt="">
+                    <hr>
+                    <h5>Cup</h5>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <span>$10</span>
+                    <button>Add to chart</button>
+                </div>
+                <div class="product4">
+                    <img src="./imgs/PLOyZDrAbm1714548224_8913abb11f2c112b04357e3035e9c143884ad60c072f89108a81966ac656ba5f.jpg"  alt="">
+                    <hr>
+                    <h5>Wallest</h5>
+                    <p>Lorem ipsum</p>
+                    <span>$5</span>
+                    <button>Add to chart</button>
+                </div>
+                <div class="clr"></div>
+            </div>
+        </section>
+    </div>
+    <script>
+        var x= document.getElementsByTagName('button')
+        for(let i=0; i<x.length;i++){
+            x[i].addEventListener('click',function(){
+                
+                if(x[i].style.backgroundColor=='green'){
+                    x[i].style.backgroundColor='transparent'
+                }
+                else{
+                    x[i].style.backgroundColor='green'
+                }
+            })
+        }
+    </script>
+</body>
+</html>
