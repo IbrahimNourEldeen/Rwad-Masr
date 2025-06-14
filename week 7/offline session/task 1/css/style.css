@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: linear-gradient(to top left,rgb(114, 38, 152),rgb(36, 37, 85));
+    
+}
+h2 img{
+    width: 40px;
+}
+.BG{
+    background-color: orangered;
+}
+.card{
+
+    min-width: 500px;
+}
+#taskInput{
+    outline: none;
+}
+#btn:hover{
+    background-color: orangered;
+}
+ul li{
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-image: url(../images/radio.png);
+    background-size: cover;
+    background-position: center center;
+    left: -30px;
+}
+ul li.checked{
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image: url(../images/check.png);
+    background-color: rgb(255, 91, 31);
+}
+ul li span{
+    position: absolute;
+    right: 0;
+    font-size: larger;
+    cursor: pointer;
+}

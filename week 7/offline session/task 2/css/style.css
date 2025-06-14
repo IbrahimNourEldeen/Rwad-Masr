@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #312752;
+}
+.d{
+    color: rgb(1, 1, 111);
+}
+.nextBtn{
+    width: fit-content;
+    margin: auto;
+    background-color: #312752;
+}

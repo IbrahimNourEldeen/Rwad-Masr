@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    background-color: rgb(23, 23, 55);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#Left{
+    height: 200px;
+    width: 300px;
+    border: dotted white ;
+    
+}
+.list{
+    background-color: rgb(226, 43, 147);
+    color: white;
+    margin: 15px;
+    padding: 6px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: grab;
+}
+
+#Right{
+    height: 200px;
+    width: 300px;
+    border: dotted white ;
+}
